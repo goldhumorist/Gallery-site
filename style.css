@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border: 5px solid rgb(133, 133, 133);
+    background-color:rgb(206, 206, 206); ;
+}
+.gallery {
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+.gallery img{
+    max-width: 300px;
+    margin: 20px;
+
+}
